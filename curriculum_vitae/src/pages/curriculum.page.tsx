@@ -1,7 +1,7 @@
 export default function Curriculum () {
     return (
         <>
-            <h1>Curriculum</h1>
+            <h1 className="font-console uppercase">Curriculum</h1>
         </>
     );
 } 

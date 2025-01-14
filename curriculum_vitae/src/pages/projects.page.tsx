@@ -1,7 +1,7 @@
 export default function Projects () {
     return (
         <>
-            <h1>Proyectos</h1>
+            <h1 className="font-console uppercase">Proyectos</h1>
         </>
     );
 } 
