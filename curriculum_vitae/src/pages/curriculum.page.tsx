@@ -1,7 +1,10 @@
 export default function Curriculum () {
     return (
         <>
-            <h1 className="font-console uppercase">Curriculum</h1>
+            <div className="grid grid-cols-2 h-full">
+                <div style={{background: "rgb(230, 220, 206)"}}></div>
+                <div></div>
+            </div>
         </>
     );
 } 

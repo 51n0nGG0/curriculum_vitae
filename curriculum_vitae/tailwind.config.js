@@ -8,8 +8,20 @@ export default {
     extend: {
       fontFamily: {
         oswald: 'Oswald, ui-serif',
-        console: 'Lucida Console, Courier New, monospace'
+        console: 'Lucida Console, Courier New, monospace',
+        poppins: 'Poppins, serif',
+        montserrat: 'Montserrat, serif'
+      },
+      margin: {
+        header: '55px 0px 57px calc((100% - 490px)* 0)'
+      },
+      gridTemplateColumns: {
+        full: '100%'
+      },
+      gridTemplateRows: {
+        root: 'min-content 1fr min-content'
       }
+      
     }
   },
   plugins: [],

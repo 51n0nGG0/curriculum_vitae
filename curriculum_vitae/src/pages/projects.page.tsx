@@ -1,7 +1,10 @@
 export default function Projects () {
     return (
         <>
-            <h1 className="font-console uppercase">Proyectos</h1>
+            <div className="grid grid-cols-2 h-full">
+                <div style={{background: "rgb(207, 230, 206)"}} ></div>
+                <div></div>
+            </div>
         </>
     );
 } 
