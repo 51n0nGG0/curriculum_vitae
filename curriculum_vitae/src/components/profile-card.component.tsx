@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 export default function ProfileCard() {
     return (
         <>
-            <div className="grid grid-cols-full justify-items-center h-[auto] w-[375px] bg-[#f4e6e6] shadow-lg position-absolute mb-[52px] mt-[72px]">
+            <div className="grid grid-cols-full justify-items-center h-[auto] w-[375px] bg-[#f4e6e6] shadow-lg position-absolute ">
                 <img className="rounded-full w-[205px] h-[205px] object-cover mt-[43px] mb-[34px]" src={ProfilePhoto} alt="" />
                 <h1 className="text-2xl text-center font-bold font-poppins m-0"><span>Eloy Alfredo <br></br> Schmidt Rodríguez</span></h1>
                 <div className="w-[50px] h-[5px] bg-red-700 mb-[25px]"></div>

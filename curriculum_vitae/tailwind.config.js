@@ -20,6 +20,9 @@ export default {
       },
       gridTemplateRows: {
         root: 'min-content 1fr min-content'
+      },
+      minHeight: {
+        main: 'calc(100vh - 144px)'
       }
       
     }

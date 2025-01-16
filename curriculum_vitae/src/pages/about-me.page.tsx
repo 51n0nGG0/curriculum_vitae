@@ -3,12 +3,12 @@ import ProfileCard from "../components/profile-card.component";
 export default function AboutMe () {
     return (
         <>
-            <div className="grid grid-cols-[3fr_4fr] h-full relative">
+            <div className="absolute grid grid-cols-[3fr_4fr] h-full w-full z-0">
                 <div className="bg-[#e6cece]"></div>
-                <div></div>
-                <div className="absolute w-full flex justify-center gap-x-10">
+            </div>
+            <div className="self-center w-full flex justify-center items-start gap-x-10 z-10 relative">
                     <ProfileCard/>
-                    <div className="mb-[52px] mt-[72px]">
+                    <div className="">
                         <p className="text-[100px] font-bold font-poppins">Hello</p>
                         <p className="text-[25px] font-poppins mb-[38px]">This is who I am and what I do</p>
                         <div className="flex gap-x-5 mb-[56px]">
@@ -19,14 +19,13 @@ export default function AboutMe () {
                                 <span>Projects</span>
                             </a>
                         </div>
-                        <div className="flex flex-col gap-y-8 w-[369px]">
-                            <p className="text-[17px] font-montserrat">Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en "Editar texto" o doble clic aquí para agregar tu contenido y cambiar la fuente.</p>
-                            <p className="text-[17px] font-montserrat">Aquí puedes contar tu historia y permitir que tus usuarios sepan más sobre ti.</p>
+                        <div className="flex flex-col gap-y-5 w-[369px]">
+                            <p className="text-[16px] font-montserrat">I'm Eloy Alfredo Schmidt Rodríguez, a 24-year-old Software Engineer with a passion for continuous learning and problem-solving. I enjoy listening to music, watching anime, and reading books. I'm always eager to expand my knowledge by working on personal projects and taking courses.
+                            </p> 
+                            <p className="text-[16px] font-montserrat">Currently, I'm completing a Master's in Web Engineering at the University of Oviedo, further strengthening my skills and expertise in the field.</p>
                         </div>
-                        
                     </div>
                 </div>
-            </div>
         </>
     );
 } 
