@@ -11,16 +11,19 @@ const Layout = () => {
 
   return (
     <>
-      <header className="flex flex-row items-center z-20 gap-x-12 max-xl:mx-5 mx-12">
+      <header className="flex flex-row items-center z-20 gap-x-12 mx-12 max-md:mx-5 max-md:gap-x-5">
         <div className="flex flex-row flex-1 justify-start items-center gap-x-5 max-xl:flex-col max-xl:items-start">
-          <p className="text-2xl font-bold font-poppins m-header max-xl:m-headertop "><span className="text-nowrap">Eloy Alfredo</span> <span className="text-nowrap">Schmidt Rodríguez</span></p>
+          <div className="flex flex-row justify-start items-center gap-x-5 m-header max-xl:m-headertop max-md:gap-x-3">
+            <div className="bg-red-700 w-[20px] h-[20px] min-w-[20px] min-h-[20px]"></div>
+            <p className="text-2xl font-bold font-poppins max-sm:text-xl"><span className="text-nowrap">Eloy Alfredo</span> <span className="text-nowrap">Schmidt Rodríguez</span></p>
+          </div>
           <span className="text-xl font-montserrat m-header max-xl:hidden">/</span>
-          <p className="uppercase text-xl font-montserrat m-header max-xl:m-headerbottom">Software Engineer</p>
+          <p className="uppercase text-xl font-montserrat m-header max-xl:m-headerbottom max-sm:text-lg">Software Engineer</p>
         </div>
         <div onClick={()=>setBurgerOpen(!burgerOpen)} className={"transition ease-out transform flex flex-col justify-evenly w-[50px] h-[50px] lg:hidden " + (burgerOpen ? "-rotate-45" : "")}>
           <div className={"transition ease-out transform bg-red-700 h-[5px] w-1/2 rounded-full " + (burgerOpen ? "-rotate-90 translate-x-[12.5px] bg-black" : "")}></div>
           <div className={"bg-red-700 h-[5px] rounded-full " + (burgerOpen ? "bg-black" : "")}></div>
-          <div className={"transition ease-out transform bg-red-700 h-[5px] w-1/2 rounded-full self-end " + (burgerOpen ? "-rotate-90 translate-x-[-12.5px] bg-black" : "")}></div>
+          <div className={"transition bg-red-700 ease-out transform h-[5px] w-1/2 rounded-full self-end " + (burgerOpen ? "-rotate-90 translate-x-[-12.5px] bg-black" : "")}></div>
         </div>
         <nav className="flex flex-row gap-x-10 justify-end max-lg:hidden">
           <Link to="/" className="text-sm uppercase font-montserrat">ABOUT ME</Link>
