@@ -11,18 +11,18 @@ const Layout = () => {
 
   return (
     <>
-      <header className="flex flex-row items-center z-20 gap-x-12">
-        <div className="flex flex-row flex-1 justify-start items-center ml-12 gap-x-5 max-xl:flex-col max-xl:items-start">
-          <p className="text-2xl font-bold font-poppins m-header max-xl:m-headertop ">Eloy Alfredo Schmidt Rodríguez</p>
+      <header className="flex flex-row items-center z-20 gap-x-12 max-xl:mx-5 mx-12">
+        <div className="flex flex-row flex-1 justify-start items-center gap-x-5 max-xl:flex-col max-xl:items-start">
+          <p className="text-2xl font-bold font-poppins m-header max-xl:m-headertop "><span className="text-nowrap">Eloy Alfredo</span> <span className="text-nowrap">Schmidt Rodríguez</span></p>
           <span className="text-xl font-montserrat m-header max-xl:hidden">/</span>
           <p className="uppercase text-xl font-montserrat m-header max-xl:m-headerbottom">Software Engineer</p>
         </div>
-        <div onClick={()=>setBurgerOpen(!burgerOpen)} className={"transition ease-out transform flex flex-col justify-evenly w-[50px] h-[50px] max-xl:mr-12 lg:hidden " + (burgerOpen ? "-rotate-45" : "")}>
+        <div onClick={()=>setBurgerOpen(!burgerOpen)} className={"transition ease-out transform flex flex-col justify-evenly w-[50px] h-[50px] lg:hidden " + (burgerOpen ? "-rotate-45" : "")}>
           <div className={"transition ease-out transform bg-red-700 h-[5px] w-1/2 rounded-full " + (burgerOpen ? "-rotate-90 translate-x-[12.5px] bg-black" : "")}></div>
           <div className={"bg-red-700 h-[5px] rounded-full " + (burgerOpen ? "bg-black" : "")}></div>
           <div className={"transition ease-out transform bg-red-700 h-[5px] w-1/2 rounded-full self-end " + (burgerOpen ? "-rotate-90 translate-x-[-12.5px] bg-black" : "")}></div>
         </div>
-        <nav className="flex flex-row gap-x-10 justify-end  mr-12 max-lg:hidden">
+        <nav className="flex flex-row gap-x-10 justify-end max-lg:hidden">
           <Link to="/" className="text-sm uppercase font-montserrat">ABOUT ME</Link>
           <Link to="/curriculum" className="text-sm uppercase font-montserrat">Curriculum</Link>
           <Link to="/projects" className="text-sm uppercase font-montserrat">Projects</Link>
