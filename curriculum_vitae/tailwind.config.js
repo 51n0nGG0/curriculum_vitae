@@ -13,7 +13,9 @@ export default {
         montserrat: 'Montserrat, serif'
       },
       margin: {
-        header: '55px 0px 57px calc((100% - 490px)* 0)'
+        header: '55px 0px 57px 0px',
+        headertop: '22px 0px 10px 0px',
+        headerbottom: '0px 0px 22px 0px'
       },
       gridTemplateColumns: {
         full: '100%'
