@@ -1,0 +1,25 @@
+{
+    "header": {
+        "aboutme": "About me",
+        "curriculum": "Curriculum",
+        "projects": "Projects",
+        "contact": "Contact",
+        "profession": "Software Engineer"
+    },
+    "aboutme": {
+        "hello": "Hello"
+    },
+    "curriculum": {
+        "h1": "Curriculum",
+        "experience": "Experience",
+        "education": "Education",
+        "fullstack-dev": "Fullstack Developer",
+        "job-description-1": "As a Full-Stack Developer with a focus on front-end development, I participated in the maintenance and evolution project of ALSA Spain's website, concentrating on optimizing its functionality and enhancing the user experience. Throughout this project, I was responsible for tasks such as layout development, bug fixing, and code refactoring, ensuring the website became more efficient and scalable for future improvements.\n\nOne of my key contributions was the refactoring of the navigation bar, reorganizing its code structure to make it more maintainable and enabling the seamless implementation of future enhancements. Furthermore, I implemented the password complexity validation system in the user registration process, improving security and boosting customer satisfaction during their interaction with the platform."
+    },
+    "footer": {
+        "createdby": "© 2024 Created by Eloy",
+        "call": "Call",
+        "write": "Write",
+        "follow": "Follow"
+    }
+}

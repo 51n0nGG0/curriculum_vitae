@@ -1,0 +1,25 @@
+{
+    "header": {
+        "aboutme": "Sobre mí",
+        "curriculum": "Currículum",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "profession": "Ingeniero Software"
+    },
+    "aboutme": {
+        "hello": "Hola"
+    },
+    "curriculum": {
+        "h1": "Currículum",
+        "experience": "Experiencia",
+        "education": "Educación",
+        "fullstack-dev": "Desarrollador Fullstack",
+        "job-description-1": "Como Desarrollador Full-Stack con enfoque en el desarrollo front-end, participé en el proyecto de mantenimiento y evolutivos de la página web de ALSA España, centrándome en optimizar su funcionalidad y mejorar la experiencia del usuario. A lo largo de este proyecto, me encargué de tareas de maquetación, corrección de errores y refactorización de código, asegurando que el sitio web fuera más eficiente y escalable para futuras mejoras.\n\nUna de mis principales contribuciones fue la refactorización de la barra de navegación, reorganizando su estructura de código para hacerla más mantenible y permitiendo la implementación de futuras mejoras de forma sencilla. Además, implementé el sistema de validación de complejidad de contraseñas en el proceso de registro de usuarios, mejorando la seguridad y aumentando la satisfacción de los clientes durante su interacción con la plataforma."
+    },
+    "footer": {
+        "createdby": "© 2024 Creado por Eloy",
+        "call": "Llama",
+        "write": "Escribe",
+        "follow": "Sigue"
+    }
+}

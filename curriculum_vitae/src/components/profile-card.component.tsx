@@ -23,15 +23,12 @@ export default function ProfileCard() {
                 <p className="uppercase text-xl font-montserrat m-0 mb-[51px] max-lg:hidden">Software Engineer</p>
                 <div className="w-full bg-[#faf6f6]">
                     <div className="mt-[14px] mb-[14px] flex justify-center gap-x-5">
-                        <a>
-                            <FontAwesomeIcon icon={faInstagram} size="xl"/>
-                        </a>
-                        <a>
+                        <Link to="https://www.linkedin.com/in/eloyalfredoschmidtr/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedinIn} size="xl"/>
-                        </a>
-                        <a>
+                        </Link>
+                        <Link to="https://github.com/51n0nGG0" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub} size="xl"/>
-                        </a>
+                        </Link>
                     </div>
                     
                 </div>
