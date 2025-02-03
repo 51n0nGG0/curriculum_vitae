@@ -25,7 +25,7 @@ type LanguageContextType = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-    const [language, setLanguage] = useState<string>(i18n.language);
+    const [language, setLanguage] = useState<string>(i18n.language.split("-")[0]);
 
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng);
