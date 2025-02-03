@@ -7,7 +7,10 @@
         "profession": "Ingeniero Software"
     },
     "aboutme": {
-        "hello": "Hola"
+        "title": "Hola",
+        "subtitle": "Este es quien soy y lo que hago",
+        "paragraph1": "Soy Eloy Alfredo Schmidt Rodríguez, Ingeniero de Software de 24 años con un año y medio de experiencia profesional. Actualmente, estoy cursando un Máster Universitario en Ingeniería Web en la Universidad de Oviedo para seguir fortaleciendo mis habilidades.",
+        "paragraph2": "Me apasiona el aprendizaje continuo y disfruto investigando y resolviendo problemas cuando me enfrento a nuevos desafíos. Entre mis hobbies y aficiones se encuentran los cubos de Rubik, el tiro con arco y viajar para descubrir nuevas culturas y perspectivas del mundo."
     },
     "curriculum": {
         "h1": "Currículum",
