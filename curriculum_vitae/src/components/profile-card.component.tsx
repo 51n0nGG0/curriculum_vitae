@@ -1,6 +1,5 @@
 import ProfilePhoto from "../assets/images/profile-photo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons/faLinkedinIn";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { Link } from "react-router-dom";
